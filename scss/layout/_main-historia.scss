@@ -1,0 +1,323 @@
+.subtitulo-1 {grid-area: sub-1;
+    @include subtitulo}
+
+.p-1 {grid-area: p-1;
+@include parrafo}
+
+.mk1-sub {grid-area: mk1-sub;
+ font-size: 20px;
+ text-align: justify;
+ margin-right: 20px;
+ width: 75%;
+ margin-left: 150px;}
+
+.img-mk1 {grid-area: img-mk1;
+ width: 75%;
+ margin-top: 10px;
+ margin-left: 150px;}
+.img-mk1:hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.mk1{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-1        . "
+" p-1       p-1       p-1 "
+" img-mk1 img-mk1 img-mk1 "
+" mk1-sub mk1-sub mk1-sub ";}
+
+/* mk2 */
+.subtitulo-2 {grid-area: sub-2;
+    @include subtitulo}
+
+.p-2 {grid-area: p-2;
+    @include parrafo}
+
+.img-mk2 {grid-area: img-mk2;
+ border-radius: 10%;
+ width: 75%;
+ margin-top: 10px;
+ margin-left: 150px;}
+
+.img-mk2:hover {transform: scale(0.9);
+                transition: 1s;}
+
+.mk2{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-2       . "
+" p-2       p-2       p-2 "
+" img-mk2 img-mk2 img-mk2 ";}
+
+/* mk3 */
+.subtitulo-3 {grid-area: sub-3;
+    @include subtitulo}
+
+.p-3 {grid-area: p-3;
+    @include parrafo}
+
+.mk3-sub {grid-area: mk3-sub;
+font-size: 20px;
+text-align: justify;
+font-weight: bold;
+margin-right: 20px;
+width: 80%;
+margin-left: 570px;
+text-decoration: underline;}
+
+.img-mk3 {grid-area: img-mk3;
+          border-radius: 10%;
+          width: 75%;
+          margin-top: 10px;
+          margin-left: 150px;}
+
+.img-mk3:hover {transform: scale(0.9);
+                transition: 1s;}
+
+.img-mk3-2 {grid-area: img-mk3-2;
+   width: 80%;
+   margin-left: 100px;
+   margin-top: 10px;}
+
+.img-mk3-2:hover {transform: scale(0.9);
+                transition: 1s;}
+
+.mk3{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .          sub-3          . "
+" p-3         p-3         p-3 "
+"img-mk3    img-mk3   img-mk3 "
+"img-mk3-2 img-mk3-2 img-mk3-2"
+" mk3-sub mk3-sub     mk3-sub ";}
+
+/* mk4 */
+.subtitulo-4 {grid-area: sub-4;
+    @include subtitulo}
+
+.p-4 {grid-area: p-4;
+    @include parrafo}
+
+.p-4-sub {grid-area: p-4-sub;
+ font-size: 20px;
+ text-align: justify;
+ margin-right: 20px;
+ width: 80%;
+ font-weight: bold;
+ margin-left: 570px;
+ text-decoration: underline;}
+
+.img-mk4 {grid-area: img-mk4;
+ border-radius: 10%;
+ width: 75%;
+ margin-top: 10px;
+ margin-left: 150px;}
+
+.img-mk4:hover {transform: scale(0.9);
+                transition: 1s;}
+
+.img-mk4-2 {grid-area: img-mk4-2;
+    border-radius: 10%;
+   width: 80%;
+   margin-left: 100px;
+   margin-top: 10px;}
+
+.img-mk4-2:hover {transform: scale(0.9);
+                  transition: 1s;}
+
+.mk4{grid-template-areas:
+".        sub-4           ."
+"p-4       p-4          p-4"
+"img-mk4 img-mk4    img-mk4"
+".      img-mk4-2 img-mk4-2"
+".       p-4-sub    p-4-sub";}
+
+/* mk5 */
+.subtitulo-5 {grid-area: sub-5;
+    @include subtitulo}
+
+.p-5 {grid-area: p-5;
+    @include parrafo}
+
+.p-5-2 {grid-area: p-5-2;
+    @include parrafo}
+.p-5-3 {grid-area: p-5-3;
+font-size: 20px;
+text-align: justify;
+margin-left: 540px;
+font-weight: bold;
+margin-right: 10px;
+margin-top: 10px;
+text-decoration: underline;}
+
+.p-5-4 {grid-area: p-5-4;
+    @include parrafo}
+
+.img-mk5 {grid-area: img-mk5;
+ width: 75%;
+ margin-top: 10px;
+ margin-left: 150px;}
+
+.img-mk5:hover {transform: scale(0.9);
+    transition: 1s;}
+
+.img-mk5-2 { grid-area: img-mk5-2;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 150px;}
+
+.img-mk5-2:hover {transform: scale(0.9);
+                transition: 1s;}
+
+.mk5{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-5          . "
+"p-5         p-5          p-5"
+" img-mk5  img-mk5    img-mk5"
+" p-5-2     p-5-2      p-5-2 "
+" .       img-mk5-2 img-mk5-2"
+" .         p-5-3       p-5-3"
+" p-5-4     p-5-4       p-5-4"}
+
+/* mk6 */
+.subtitulo-6 {grid-area: sub-6;
+    @include subtitulo}
+
+.p-6 {grid-area: p-6;
+    @include parrafo}
+
+.p-6-2 {grid-area: p-6-2;
+    @include parrafo}
+
+.p-6-3 {grid-area: p-6-3;
+font-size: 20px;
+text-align: justify;
+margin-left: 520px;
+font-weight: bold;
+margin-right: 10px;
+margin-top: 10px;
+text-decoration: underline;}
+.img-mk6 { grid-area: img-mk6;
+  width: 75%;
+  margin-top: 10px;
+  margin-left: 150px;}
+
+.img-mk6:hover {transform: scale(0.9);
+                transition: 1s;}    
+
+.img-mk6-2 {grid-area: img-mk6-2;
+   width: 75%;
+   margin-top: 10px;
+   margin-left: 150px;}
+
+.img-mk6-2:hover {transform: scale(0.9);
+                transition: 1s;}
+
+.mk6 {display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-6          . "
+" p-6        p-6          p-6"
+" img-mk6  img-mk6    img-mk6"
+" p-6-2     p-6-2      p-6-2 "
+" .       img-mk6-2 img-mk6-2"
+" .         p-6-3       p-6-3"}
+
+/* mk7 */
+.subtitulo-7 {grid-area: sub-7;
+    @include subtitulo}
+
+.p-7 {grid-area: p-7;
+    @include parrafo}
+
+.p-7-2 {grid-area: p-7-2;
+font-size: 20px;
+text-align: justify;
+margin-left: 350px;
+font-weight: bold;
+margin-right: 10px;
+margin-top: 10px;
+text-decoration: underline;}
+
+.p-7-3 {grid-area: p-7-3;
+font-size: 20px;
+text-align: justify;
+margin-left: 220px;
+font-weight: bold;
+margin-right: 10px;
+margin-top: 10px;
+text-decoration: underline;}
+
+.img-mk7 { grid-area: img-mk7;
+  width: 75%;
+  margin-top: 10px;
+  margin-left: 150px;}
+
+.img-mk7:hover {transform: scale(0.9);
+    transition: 1s;}
+
+.img-mk7-2 {grid-area: img-mk7-2;
+   width: 75%;
+   margin-top: 10px;
+   margin-left: 150px;}
+
+.img-mk7-2:hover {transform: scale(0.9);
+    transition: 1s;}
+
+.img-mk7-3 {grid-area: img-mk7-3;
+    width: 75%;
+    margin-top: 10px;}
+
+.img-mk7-3:hover {transform: scale(0.9);
+        transition: 1s;}
+
+.mk7 {display: grid;
+grid-template-columns: 47% 1% 47%;
+grid-template-areas:
+"sub-7 sub-7 sub-7  "
+"p-7 p-7 p-7"
+"img-mk7 img-mk7 img-mk7"
+"img-mk7-2 . img-mk7-3"
+"p-7-2 . p-7-3"}
+
+/* mk8 */
+.subtitulo-8 {grid-area: sub-8;
+    @include subtitulo }
+
+.p-8 {grid-area: p-8;
+    @include parrafo}
+
+.img-mk8 {grid-area: img-mk8;
+   width: 75%;
+   margin-top: 10px;
+   margin-block-end: 10px;
+   margin-left: 150px;}
+
+.img-mk8:hover {transform: scale(0.9);
+    transition: 1s;}
+
+.mk8{display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-areas:
+" .         sub-8        . "
+" p-8       p-8       p-8 "
+" img-mk8 img-mk8 img-mk8 "; }
+
+/*fin historia  */
+.p-9 {@include parrafo}
+
+.p-9-2 {font-size: 30px;
+text-align: justify;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+text-decoration: underline;}
+
+.img-9 {width: 95%;
+margin-top: 10px;
+margin-block-end: 10px;
+margin-left: 10px;
+margin-right: 10px;}

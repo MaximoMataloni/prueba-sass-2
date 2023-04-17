@@ -1,0 +1,14 @@
+main {overflow: hidden;
+background-color: #FCFAFA;}
+
+.Homepage {width: 100%;
+           height: 100vh;
+           background-color: black;
+           background-image: url(../assets/Fondo\ Gti.jpg);
+           display: grid ;
+           place-items: center;}
+.titulo {text-align: center;
+         text-shadow: 8px 8px black;
+         font-weight: bold;
+         color: white;
+         font-size: 100px;}

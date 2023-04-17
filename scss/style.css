@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pie-de-pagina {
+  color: white;
+  font-size: font-size 20px;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+.pie-de-pagina:hover {
+  background-color: white;
+  color: black;
+}
+
+.logo-1 {
+  padding: 0 670px;
+}
+
+.Institucional {
+  color: white;
+  padding: 0 15px;
+  font-size: font-size 20px;
+}
+
+footer {
+  background-color: cornflowerblue;
+  overflow: hidden;
+}
+
+.politicas {
+  color: white;
+  text-decoration: none;
+  font-size: font-size 20px;
+  padding: 0 20px;
+  text-align: right;
+}
+
+.politicas:hover {
+  background-color: white;
+  color: black;
+}
+
+header {
+  position: sticky;
+  top: 1px;
+  overflow: hidden;
+}
+
+.logo-2 {
+  height: 40px;
+}
+
+main {
+  overflow: hidden;
+  font-family: "Tomorrow", sans-serif;
+}
+
+.Homepage {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background-image: url(../assets/Fondo\ Gti.jpg);
+  display: grid;
+  place-items: center;
+}
+
+.titulo {
+  text-align: center;
+  text-shadow: 8px 8px black;
+  font-weight: bold;
+  color: white;
+  font-size: 100px;
+}
+
+@media (max-width: 1024px) {
+  .Barra-De-Navegacion {
+    font-size: 18px;
+    padding: 0 45px;
+  }
+  .Homepage {
+    width: 100%;
+    height: 100vh;
+  }
+  .logo-2 img {
+    height: 40px;
+  }
+  .logo-1 {
+    padding: 0 460px;
+  }
+}
+@media (max-width: 321px) {
+  .Barra-De-Navegacion {
+    font-size: 10px;
+    padding: 0 13px;
+  }
+  .Homepage {
+    width: 320px;
+    height: 628px;
+  }
+  .titulo {
+    font-size: 40px;
+  }
+  .logo-1 {
+    padding: 0 115px;
+  }
+}
+@media (max-width: 376px) {
+  .Barra-De-Navegacion {
+    font-size: 10px;
+    padding: 0 20px;
+  }
+  .Homepage {
+    width: 375px;
+    height: 628px;
+  }
+  .titulo {
+    font-size: 45px;
+  }
+  .pie-de-pagina {
+    font-size: 10px;
+  }
+  .Institucional {
+    font-size: 10px;
+  }
+  .politicas {
+    font-size: 10px;
+  }
+  .logo-1 {
+    padding: 0 140px;
+  }
+}
+@media (max-width: 426px) {
+  .Barra-De-Navegacion {
+    font-size: 10px;
+    padding: 0 25px;
+  }
+  .Homepage {
+    width: 425px;
+    height: 628px;
+  }
+  .titulo {
+    font-size: 55px;
+  }
+  .pie-de-pagina {
+    font-size: 10px;
+  }
+  .Institucional {
+    font-size: 10px;
+  }
+  .politicas {
+    font-size: 10px;
+  }
+  .logo-1 {
+    padding: 0 160 px;
+  }
+  .logo-1 {
+    padding: 0 160px;
+  }
+}
+@media (max-width: 768px) {
+  .Barra-De-Navegacion {
+    font-size: 18px;
+    padding: 0 32px;
+  }
+  .Homepage {
+    width: 768px;
+    height: 628px;
+  }
+  .titulo {
+    font-size: 80px;
+  }
+  .logo-2 img {
+    height: 40px;
+  }
+  .pie-de-pagina {
+    font-size: 18px;
+  }
+  .Institucional {
+    font-size: 18px;
+  }
+  .politicas {
+    font-size: 18px;
+  }
+  .logo-1 {
+    padding: 0 350px;
+  }
+}/*# sourceMappingURL=style.css.map */
