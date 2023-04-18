@@ -8,7 +8,9 @@
     .pie-de-pagina {font-size: 10px;}
     .Institucional {font-size: 10px;}
     .politicas {font-size: 10px;}
-    .logo-1 {padding: 0 140px;} }
+    .logo-1 {padding: 0 140px;} 
+    .Institucional {font-size: 10px}
+    .politicas {font-size: 10px;}}
 
 //main-historia//
 @media (max-width:376px) {
@@ -27,9 +29,9 @@
        /* mk3 */
      .subtitulo-3 {font-size: 21px;}
      .p-3 { font-size: 15px;}
-     .img-mk3 { margin-left: 40px;}
-     .img-mk3-2 {margin-left: 30px;}
-     .mk3-sub { margin-left: 80px;
+     .img-mk3 { margin-left: 50px;}
+     .img-mk3-2 {margin-left: 50px;}
+     .mk3-sub { margin-left: 50px;
                 font-size: 15px;}
     
      /* mk5 */
@@ -48,3 +50,22 @@
      .p-7-2 {margin-left: 40px ;}
      .p-7-3 {margin-left: 60px;}}
     
+     //modificaicones//
+     @media (max-width:376px) {
+      .h1 {font-size: 30px;}
+      .inicio-1 {font-size: 10px;}
+      .h2 {font-size: 20px;}
+      .mod-comunes {font-size: 10px;}
+      .mod-1 {font-size: 15px}
+      .mod-2 {font-size: 15px}
+      .mod-3 {font-size: 15px}
+      .dd-1 {font-size: 10px}
+      .dd-2 {font-size: 10px}
+      .dd-3 {font-size: 10px}
+      .dd-4 {font-size: 10px}
+      .repro {margin-left: 30px;}
+      .apr {margin-left: 30px;}
+      .revo {margin-left: 50px;}
+      .escape {margin-left: 30px;}
+      .kyn {margin-left: 30px;}
+      }

@@ -21,12 +21,12 @@
     
     /* mk3 */
     .subtitulo-3 {font-size: 40px;}
-    .mk3-sub { margin-left: 250px;}
+    .mk3-sub { margin-left: 280px;}
     
     /* mk4 */
     .subtitulo-4 {font-size: 40px;}
     .mk4-sub {margin-left: 250px;}
-    .p-4-sub {margin-left: 310px;}
+    .p-4-sub {margin-left: 350px;}
     
     /* mk5 */
     .subtitulo-5 {font-size: 40px;}
@@ -38,10 +38,22 @@
     
     /* mk7 */
     .subtitulo-7 {font-size: 40px;}
-    .img-mk7-3 {margin-left: 80px;}
-    .img-mk7-2 {margin-left: 80px;}
-    .p-7-2 {margin-left: 150px;}   
-    .p-7-3 {margin-left: 180px; }
+    .img-mk7 {width: 80%;
+    margin-left: 100px;}
+    .img-mk7-3 {margin-left: 60px;}
+    .img-mk7-2 {margin-left: 100px;}
+    .p-7-2 {margin-left: 160px;}   
+    .p-7-3 {margin-left: 120px; }
     
     /* mk8 */
     .subtitulo-8 {font-size: 40px;}}
+
+    //modificaciones//
+    @media (max-width:769px) {
+        .repro {margin-left: 50px;}
+        .apr {margin-left: 100px;}
+        .revo {margin-left: 120px;}
+        .escape {margin-left: 50px;}
+        .kyn {margin-left: 50px;}
+    }
+    

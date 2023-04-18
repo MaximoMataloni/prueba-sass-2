@@ -18,27 +18,27 @@
     .subtitulo-1 {font-size: 21px;}
     .p-1 {font-size: 15px;}
     .mk1-sub {font-size: 15px;
-             margin-left: 100px;}
-    .img-mk1 {margin-left: 100px;}
+             margin-left: 80px;}
+    .img-mk1 {margin-left: 80px;}
    
    /* mk2 */
     .subtitulo-2 {font-size: 21px;}
     .p-2 {font-size: 15px;}
-    .img-mk2 {margin-left: 40px;}
+    .img-mk2 {margin-left: 60px;}
    
    /* mk3} */
     .subtitulo-3 {font-size: 21px;}
     .p-3 {font-size: 15px;}
-    .img-mk3 {margin-left: 40px;}
-    .img-mk3-2 {margin-left: 30px;}
+    .img-mk3 {margin-left: 50px;}
+    .img-mk3-2 {margin-left: 50px;}
     .mk3-sub {margin-left: 80px;
               font-size: 15px;}
    
     /* mk4 */
     .subtitulo-4 {font-size: 21px;}
     .p-4 {font-size: 15px;}
-    .img-mk4 {margin-left: 40px;}
-    .img-mk4-2 {margin-left: 30px;}
+    .img-mk4 {margin-left: 50px;}
+    .img-mk4-2 {margin-left: 50px;}
     .p-4-sub { margin-left: 130px;
                font-size: 15px;}
    
@@ -47,9 +47,10 @@
     .p-5 {font-size: 15px;}
     .p-5-2 {font-size: 15px;}
     .p-5-3 {font-size: 15px;
-           margin-left: 140px;}
+           margin-left: 120px;}
     .p-5-4 {font-size: 15px;}
-    .img-mk5 { margin-left: 100px;}
+    .img-mk5 { margin-left: 80px;
+               margin-block-end: 10px;}
     .img-mk5-2 {margin-left: 80px;}
    
     /* mk6 */
@@ -57,7 +58,7 @@
     .p-6 {font-size: 15px;}
     .p-6-2 {font-size: 15px;}
     .p-6-3 {font-size: 15px;
-            margin-left: 140px;}
+            margin-left: 120px;}
     .img-mk6 { margin-left: 100px;}
     .img-mk6-2 {margin-left: 80px;}
    
@@ -65,11 +66,11 @@
     .subtitulo-7 {font-size: 21px;}
     .p-7 {font-size: 15px;}
     .p-7-2 {font-size: 15px;
-            margin-left: 50px ;}
+            margin-left: 60px;}
     .p-7-3 {font-size: 15px;
-            margin-left: 70px;}
+            margin-left: 50px;}
     .img-mk7 { margin-left: 50px;}
-    .img-mk7-2 {margin-left: 30px;}
+    .img-mk7-2 {margin-left: 50px;}
     .img-mk7-3 {margin-left: 30px;}
    
    /* mk8 */
@@ -80,7 +81,30 @@
    /* fin historia */
    .p-9{font-size: 15px;}
    .p-9-2 {font-size: 18px;}}
+   .img-9 {
+        margin-left: 12px;
+   }
 
    //main proyectos//
    @media (max-width:426px) {
     .column {flex: 100%;}}
+
+    //modificaciones//
+    @media (max-width:426px) {
+        .h1 {font-size: 30px;}
+        .inicio-1 {font-size: 15px;}
+        .h2 {font-size: 20px;}
+        .mod-comunes {font-size: 15px;}
+        .mod-1 {font-size: 18px}
+        .mod-2 {font-size: 18px}
+        .mod-3 {font-size: 18px}
+        .dd-1 {font-size: 15px}
+        .dd-2 {font-size: 15px}
+        .dd-3 {font-size: 15px}
+        .dd-4 {font-size: 15px}
+        .repro {margin-left: 30px;}
+        .apr {margin-left: 30px;}
+        .revo {margin-left: 50px;}
+        .escape {margin-left: 30px;}
+        .kyn {margin-left: 30px;}
+        }

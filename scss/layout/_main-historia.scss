@@ -1,3 +1,4 @@
+// mk1//
 .subtitulo-1 {grid-area: sub-1;
     @include subtitulo}
 
@@ -14,11 +15,12 @@
 .img-mk1 {grid-area: img-mk1;
  width: 75%;
  margin-top: 10px;
- margin-left: 150px;}
-.img-mk1:hover {
-    transform: scale(0.9);
-    transition: 1s;
-}
+ margin-left: 150px;
+ border-radius: 8%;
+ border: solid black;}
+
+.img-mk1:hover {transform: scale(0.9);
+                transition: 5s;}
 
 .mk1{display: grid;
 grid-template-columns: 20% 60% 20%;
@@ -36,13 +38,14 @@ grid-template-areas:
     @include parrafo}
 
 .img-mk2 {grid-area: img-mk2;
- border-radius: 10%;
+ border: solid black;
+ border-radius: 8%;
  width: 75%;
  margin-top: 10px;
  margin-left: 150px;}
 
 .img-mk2:hover {transform: scale(0.9);
-                transition: 1s;}
+                transition: 5s;}
 
 .mk2{display: grid;
 grid-template-columns: 20% 60% 20%;
@@ -68,21 +71,25 @@ margin-left: 570px;
 text-decoration: underline;}
 
 .img-mk3 {grid-area: img-mk3;
-          border-radius: 10%;
+          border: solid black;
+          border-radius: 8%;
           width: 75%;
           margin-top: 10px;
           margin-left: 150px;}
 
 .img-mk3:hover {transform: scale(0.9);
-                transition: 1s;}
+                transition: 5s;}
 
 .img-mk3-2 {grid-area: img-mk3-2;
-   width: 80%;
-   margin-left: 100px;
-   margin-top: 10px;}
+            border: solid black;
+            border-radius: 8%;
+            width: 75%;
+            margin-left: 150px;
+            margin-top: 10px;}
 
 .img-mk3-2:hover {transform: scale(0.9);
-                transition: 1s;}
+                  transition: 5s;}
+
 
 .mk3{display: grid;
 grid-template-columns: 20% 60% 20%;
@@ -106,26 +113,29 @@ grid-template-areas:
  margin-right: 20px;
  width: 80%;
  font-weight: bold;
- margin-left: 570px;
+ margin-left: 600px;
  text-decoration: underline;}
 
 .img-mk4 {grid-area: img-mk4;
- border-radius: 10%;
- width: 75%;
- margin-top: 10px;
- margin-left: 150px;}
+          border: solid black;
+          border-radius: 8%;
+          width: 75%;
+          margin-top: 10px;
+          margin-left: 150px;}
 
 .img-mk4:hover {transform: scale(0.9);
-                transition: 1s;}
+                transition: 5s;}
+
 
 .img-mk4-2 {grid-area: img-mk4-2;
-    border-radius: 10%;
-   width: 80%;
-   margin-left: 100px;
-   margin-top: 10px;}
+            border: solid black;
+            border-radius: 8%;
+            width: 75%;
+            margin-left: 150px;
+            margin-top: 10px;}
 
 .img-mk4-2:hover {transform: scale(0.9);
-                  transition: 1s;}
+                  transition: 5s;}
 
 .mk4{grid-template-areas:
 ".        sub-4           ."
@@ -143,6 +153,7 @@ grid-template-areas:
 
 .p-5-2 {grid-area: p-5-2;
     @include parrafo}
+
 .p-5-3 {grid-area: p-5-3;
 font-size: 20px;
 text-align: justify;
@@ -156,20 +167,24 @@ text-decoration: underline;}
     @include parrafo}
 
 .img-mk5 {grid-area: img-mk5;
- width: 75%;
- margin-top: 10px;
- margin-left: 150px;}
+          border: solid black;
+          border-radius: 8%;
+          width: 75%;
+          margin-top: 5px;
+          margin-left: 150px;}
 
 .img-mk5:hover {transform: scale(0.9);
-    transition: 1s;}
+                transition: 5s;}
 
-.img-mk5-2 { grid-area: img-mk5-2;
-    width: 75%;
-    margin-top: 10px;
-    margin-left: 150px;}
+.img-mk5-2 {grid-area: img-mk5-2;
+            border: solid black;
+            border-radius: 8%;
+            width: 75%;
+            margin-top: 10px;
+            margin-left: 150px;}
 
 .img-mk5-2:hover {transform: scale(0.9);
-                transition: 1s;}
+                  transition: 5s;}
 
 .mk5{display: grid;
 grid-template-columns: 20% 60% 20%;
@@ -200,21 +215,25 @@ font-weight: bold;
 margin-right: 10px;
 margin-top: 10px;
 text-decoration: underline;}
-.img-mk6 { grid-area: img-mk6;
-  width: 75%;
-  margin-top: 10px;
-  margin-left: 150px;}
+.img-mk6 {grid-area: img-mk6;
+          border: solid black;
+          border-radius: 8%;
+          width: 75%;
+          margin-top: 10px;
+          margin-left: 150px;}
 
 .img-mk6:hover {transform: scale(0.9);
-                transition: 1s;}    
+                transition: 5s;}
 
 .img-mk6-2 {grid-area: img-mk6-2;
-   width: 75%;
-   margin-top: 10px;
-   margin-left: 150px;}
+            border: solid black;
+            border-radius: 8%;
+            width: 75%;
+            margin-top: 10px;
+            margin-left: 150px;}
 
 .img-mk6-2:hover {transform: scale(0.9);
-                transition: 1s;}
+                  transition: 5s;}
 
 .mk6 {display: grid;
 grid-template-columns: 20% 60% 20%;
@@ -245,34 +264,42 @@ text-decoration: underline;}
 .p-7-3 {grid-area: p-7-3;
 font-size: 20px;
 text-align: justify;
-margin-left: 220px;
+margin-left: 180px;
 font-weight: bold;
 margin-right: 10px;
 margin-top: 10px;
 text-decoration: underline;}
 
-.img-mk7 { grid-area: img-mk7;
-  width: 75%;
-  margin-top: 10px;
-  margin-left: 150px;}
+.img-mk7 {grid-area: img-mk7;
+          border: solid black;
+          border-radius: 8%;
+          width: 75%;
+          margin-top: 10px;
+          margin-left: 150px;}
 
 .img-mk7:hover {transform: scale(0.9);
-    transition: 1s;}
+                transition: 5s;}
 
 .img-mk7-2 {grid-area: img-mk7-2;
-   width: 75%;
-   margin-top: 10px;
-   margin-left: 150px;}
+            border: solid black;
+            border-radius: 8%;
+            width: 75%;
+            margin-top: 10px;
+            margin-left: 150px;}
 
 .img-mk7-2:hover {transform: scale(0.9);
-    transition: 1s;}
+                  transition: 5s;}
+
 
 .img-mk7-3 {grid-area: img-mk7-3;
-    width: 75%;
-    margin-top: 10px;}
+            border: solid black;
+            border-radius: 8%;
+            margin-right: 20px;
+            width: 71%;
+            margin-top: 10px;}
 
 .img-mk7-3:hover {transform: scale(0.9);
-        transition: 1s;}
+                  transition: 5s;}
 
 .mk7 {display: grid;
 grid-template-columns: 47% 1% 47%;
@@ -291,13 +318,16 @@ grid-template-areas:
     @include parrafo}
 
 .img-mk8 {grid-area: img-mk8;
-   width: 75%;
-   margin-top: 10px;
-   margin-block-end: 10px;
-   margin-left: 150px;}
+          border: solid black;
+          border-radius: 8%;
+          width: 75%;
+          margin-top: 10px;
+          margin-block-end: 10px;
+          margin-left: 150px;}
 
 .img-mk8:hover {transform: scale(0.9);
-    transition: 1s;}
+                transition: 5s;}
+
 
 .mk8{display: grid;
 grid-template-columns: 20% 60% 20%;
@@ -319,5 +349,5 @@ text-decoration: underline;}
 .img-9 {width: 95%;
 margin-top: 10px;
 margin-block-end: 10px;
-margin-left: 10px;
+margin-left: 26px;
 margin-right: 10px;}
